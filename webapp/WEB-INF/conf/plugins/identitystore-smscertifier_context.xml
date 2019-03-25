@@ -10,7 +10,7 @@
         <constructor-arg type="java.lang.Boolean" value = "false"/>
         <property name="name" value="SMS Certifier" />
         <property name="description" value="Certificateur de numéro de mobile utilisé lors de la validation de compte" />
-        <property name="certificateLevel" value="3" />
+        <property name="certificateLevel" value="2" />
         <property name="expirationDelay" value="-1" />
         <property name="iconUrl" value="images/admin/skin/plugins/identitystore/modules/smscertifier/smscertifier.png" />
         <property name="certifiableAttributesList">
