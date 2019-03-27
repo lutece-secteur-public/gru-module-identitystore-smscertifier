@@ -7,7 +7,7 @@
     <!-- Certifier -->
     <bean id="identitystore-smscertifier.certifier" class="fr.paris.lutece.plugins.identitystore.modules.smscertifier.service.certifier.SMSCertifier" >
         <constructor-arg type="java.lang.String" value = "smscertifier"/>
-        <constructor-arg type="java.lang.boolean" value = "false"/>
+        <constructor-arg type="boolean" value = "false"/>
         <property name="name" value="SMS Certifier" />
         <property name="description" value="Certificateur de numéro de mobile utilisé lors de la validation de compte" />
         <property name="certificateLevel" value="2" />

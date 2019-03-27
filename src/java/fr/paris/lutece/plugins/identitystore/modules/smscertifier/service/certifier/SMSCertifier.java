@@ -63,6 +63,14 @@ public class SMSCertifier extends GruCertifier
     {
         super( strCode );
     }
+    /**
+     * @param strCode
+     * @param bSendNotification
+     */
+    public SMSCertifier(String strCode, boolean bSendNotification)
+    {
+        super( strCode, bSendNotification );
+    }
 
     /**
      * {@inheritDoc}
