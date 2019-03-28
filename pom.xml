@@ -55,8 +55,8 @@
 
     <properties>
         <componentName>identitystore-smscertifier</componentName>
-        <jiraProjectName>IDSTORESMS</jiraProjectName>
-        <jiraComponentId>TODO</jiraComponentId>
+        <jiraProjectName>IDSMSCER</jiraProjectName>
+        <jiraComponentId>15352</jiraComponentId>
     </properties>
 
     <scm>
